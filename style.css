@@ -1,0 +1,77 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+
+    --fs-700:1.75rem;
+    --fs-400:1rem;
+    --fs-300:0.875rem;
+
+
+    --fw-400:500;
+    --fw-700:700;
+    --fw-900:900;
+
+    --padding-48:3rem;
+    --padding-24:1.5rem;
+
+    --space-1:1rem;
+    --space-2:1.25rem;
+    --space-3:1.5rem;
+
+    --text-align-left:start;
+    --text-align-center:right;
+    --text-align-right:right;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-400);
+    font-weight: var(--fw-400);
+    background-color: var(--Lightgray);
+    line-height: 1.6;
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    text-align: center
+
+}
+
+.h2{
+    font-size: var(--fs-700);
+    color: black;
+}
+
+.ptext{
+    color:var(--Grayishblue);
+}
+
+.firstsquare{
+    background-color: white;
+    max-width: 20rem;
+    border-radius: 15px;
+}
+
+
+.secondsquare{
+    background-color: #3684ff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.itemsinside{
+    padding: var(--padding-24);
+}
+
+.img{
+    
+    max-width: auto;
+    padding: 77px;
+}
